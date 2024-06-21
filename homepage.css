@@ -1,0 +1,307 @@
+.container{
+    background-image: url(../cryptocurrency/images/img1.jpg);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 7%;
+    margin-top: 200px;
+ 
+    
+  }
+  body{
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  #img1{
+    border-radius: 2rem;
+    
+  }
+  .container-fluid{
+    background-color: rgb(4, 4, 4);
+   
+  }
+  .navbar-brand{
+    color: goldenrod;
+    font-size: 25px;
+  }
+  .dropdown-toggle,.nav-link,.active-m1{
+    color: white;
+  }
+  .dropdown-toggle:hover{
+    color: gray;
+  }
+ .nav-link:hover{
+  color: gray;
+ }
+
+ .navbar-toggler-icon{
+  background-color: rgb(237, 234, 234);
+  color: white;
+ }
+ #h11{
+  color: aliceblue;
+ position: absolute;
+margin-top: 30px;
+margin-left: 10px;
+ }
+  #head{
+  color: goldenrod;
+
+ } 
+span{
+  color: goldenrod;
+}
+#p1{
+  color: aliceblue;
+ position: absolute;
+margin-top: 108px;
+margin-left: 10px;   
+
+}
+#btn{
+  background-color: rgb(230, 168, 12);
+  color: white;
+  position: absolute;
+margin-top: 160px;
+margin-left: 15px;
+height:50px;
+width:150px;
+border-radius: 2rem;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+  #h11{
+  color: aliceblue;
+ position: absolute;
+margin-top: 30px;
+margin-left: 300px;
+ }
+  #head{
+  color: goldenrod;
+  margin-left: 300px; margin-left: 500px;
+
+ } 
+span{
+  color: goldenrod;
+}
+#p1{
+  color: aliceblue;
+ position: absolute;
+margin-top: 108px;
+margin-left: 200px;   
+
+}
+#btn{
+  background-color: rgb(230, 168, 12);
+  color: white;
+  position: absolute;
+margin-top: 140px;
+margin-left: 300px;
+height:50px;
+width:150px;
+border-radius: 2rem;
+}
+} 
+@media (min-width:1024px) and (max-width:1440px) {
+  #h11{
+  color: aliceblue;
+ position: absolute;
+margin-top: 30px;
+margin-left: 450px;
+ }
+  #head{
+  color: goldenrod;
+  margin-left: 400px;
+
+ } 
+span{
+  color: goldenrod;
+}
+#p1{
+  color: aliceblue;
+ position: absolute;
+margin-top: 108px;
+margin-left: 350px;   
+
+}
+#btn{
+  background-color: rgb(230, 168, 12);
+  color: white;
+  position: absolute;
+margin-top: 140px;
+margin-left: 450px;
+height:50px;
+width:150px;
+border-radius: 2rem;
+}
+}
+/*  */
+@media (min-width:1440px) and (max-width:1440px) {
+  #h11{
+  color: aliceblue;
+ position: absolute;
+margin-top: 30px;
+margin-left: 600px;
+ }
+  #head{
+  color: goldenrod;
+  margin-left: 600px;
+
+ } 
+span{
+  color: goldenrod;
+}
+#p1{
+  color: aliceblue;
+ position: absolute;
+margin-top: 108px;
+margin-left: 500px;   
+
+}
+#btn{
+  background-color: rgb(230, 168, 12);
+  color: white;
+  position: absolute;
+margin-top: 140px;
+margin-left: 600px;
+height:50px;
+width:150px;
+border-radius: 2rem;
+}
+}
+@media (min-width:1440px) and (max-width:2000px) {
+  #h11{
+  color: aliceblue;
+ position: absolute;
+margin-top: 30px;
+margin-left: 600px;
+ }
+  #head{
+  color: goldenrod;
+  margin-left: 600px;
+
+ } 
+span{
+  color: goldenrod;
+}
+#p1{
+  color: aliceblue;
+ position: absolute;
+margin-top: 108px;
+margin-left: 500px;   
+
+}
+#btn{
+  background-color: rgb(230, 168, 12);
+  color: white;
+  position: absolute;
+margin-top: 140px;
+margin-left: 600px;
+height:50px;
+width:150px;
+border-radius: 2rem;
+}
+}
+@media (min-width:320px) and (max-width:375px) {
+  #h11{
+  color: aliceblue;
+ position: absolute;
+margin-top: 30px;
+margin-left: 80px;
+ }
+  #head{
+  color: goldenrod;
+
+ } 
+span{
+  color: goldenrod;
+}
+#p1{
+  color: aliceblue;
+ position: absolute;
+margin-top: 90px;
+margin-left: 40px;   
+
+}
+#btn{
+  background-color: rgb(230, 168, 12);
+  color: white;
+  position: absolute;
+margin-top: 150px;
+margin-left: 80px;
+height:50px;
+width:150px;
+border-radius: 2rem;
+}
+
+}
+
+@media (min-width:375px) and (max-width:425px) {
+  #h11{
+  color: aliceblue;
+ position: absolute;
+margin-top: 30px;
+margin-left: 120px;
+ }
+  #head{
+  color: goldenrod;
+
+ } 
+span{
+  color: goldenrod;
+}
+#p1{
+  color: aliceblue;
+ position: absolute;
+margin-top: 90px;
+margin-left: 40px;   
+
+}
+#btn{
+  background-color: rgb(230, 168, 12);
+  color: white;
+  position: absolute;
+margin-top: 150px;
+margin-left: 120px;
+height:50px;
+width:150px;
+border-radius: 2rem;
+}
+
+}
+@media (min-width:425px) and (max-width:620px) {
+  #h11{
+  color: aliceblue;
+ position: absolute;
+margin-top: 30px;
+margin-left: 150px;
+ }
+  #head{
+  color: goldenrod;
+
+ } 
+span{
+  color: goldenrod;
+}
+#p1{
+  color: aliceblue;
+ position: absolute;
+margin-top: 90px;
+margin-left: 40px;   
+
+}
+#btn{
+  background-color: rgb(230, 168, 12);
+  color: white;
+  position: absolute;
+margin-top: 150px;
+margin-left: 150px;
+height:50px;
+width:150px;
+border-radius: 2rem;
+}
+
+}

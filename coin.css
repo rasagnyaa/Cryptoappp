@@ -1,0 +1,77 @@
+body {
+    /* background-color: rgb(2, 2, 69); */
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  
+  }
+  td,
+  th {
+    border-left: 1px solid rgb(94, 94, 142);
+    border-right: 1px solid rgb(38, 38, 73);
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    
+  }
+  th {
+    background-color: black;
+    color: goldenrod;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+  }
+  #coinSearch {
+    width: 250px;
+    height: 50px;
+    border-radius: 1rem;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 550px;
+ 
+  }
+  .fa-search {
+    margin-left: -50px;
+    color: gray;
+  }
+  #coinSearch:hover {
+    background-color: lightgray;
+  }
+@media  screen and (max-width:1440px) {
+#coinSearch {
+    width: 250px;
+    height: 50px;
+    border-radius: 1rem;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 620px;
+ 
+  }
+}
+@media  screen and (max-width:1024px) {
+#coinSearch {
+    width: 250px;
+    height: 50px;
+    border-radius: 1rem;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 420px;
+ 
+  }
+}
+h1{
+position: absolute;
+text-decoration: none;
+color: white;
+
+margin-top: 20px;
+margin-left: 55px;
+color: rgb(219, 201, 4);
+}
+#img2{
+border-radius: 2rem;
+position: absolute;
+margin-top: 10px;
+}

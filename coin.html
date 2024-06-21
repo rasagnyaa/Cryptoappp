@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coin Search</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="../cryptocurrency/coin.css"rel="stylesheet"
+  />
+   
+  </head>
+  <body>
+  
+    <img src="../cryptocurrency/images/logo.png"height="50px"width="50px" id="img2">
+    <h1>CryptoApp</h1>
+    <input type="text" id="coinSearch" placeholder="search for a coin..." />
+    <i class="fa fa-search"></i>
+    <table id="tab">
+      <thead>
+        <tr>
+          <th>NAME</th>
+          <th>SYMBOL</th>
+          <th>ICON</th>
+          <th>PRICE</th>
+          <th>VOLUME</th>
+          <th>MARKETCAPS</th>
+          <th>TRADE</th>
+        </tr>
+      </thead>
+      <tbody id="coinBody">
+        <!-- Coins inserted here -->
+      </tbody>
+    </table>
+
+    <script src="../cryptocurrency/coin.js"></script>
+  </body>
+</html>
